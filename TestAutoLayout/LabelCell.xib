@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="vjJ-wz-udD" customClass="LabelCell" customModule="TestAutoLayout" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="400"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vjJ-wz-udD" id="ZX4-dM-dMi">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="far-Nr-AYr">
+                        <rect key="frame" x="0.0" y="20" width="320" height="24"/>
+                        <color key="backgroundColor" red="1" green="0.19052677909999999" blue="0.1182243053" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8TM-fK-I1d">
+                        <rect key="frame" x="0.0" y="54" width="320" height="24"/>
+                        <color key="backgroundColor" red="0.79741900980000002" green="0.95534928880000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="8TM-fK-I1d" secondAttribute="bottom" priority="250" constant="30" id="7vH-ZD-vmu"/>
+                    <constraint firstItem="far-Nr-AYr" firstAttribute="top" secondItem="ZX4-dM-dMi" secondAttribute="top" constant="20" id="A2D-2b-BL5"/>
+                    <constraint firstAttribute="trailing" secondItem="8TM-fK-I1d" secondAttribute="trailing" id="Kyb-8z-icr"/>
+                    <constraint firstAttribute="trailing" secondItem="far-Nr-AYr" secondAttribute="trailing" id="MMs-9s-eWG"/>
+                    <constraint firstItem="8TM-fK-I1d" firstAttribute="top" secondItem="far-Nr-AYr" secondAttribute="bottom" constant="10" id="dQ3-wg-IPb"/>
+                    <constraint firstAttribute="bottom" secondItem="far-Nr-AYr" secondAttribute="bottom" priority="250" constant="30" id="pme-rU-41H"/>
+                    <constraint firstItem="far-Nr-AYr" firstAttribute="leading" secondItem="ZX4-dM-dMi" secondAttribute="leading" id="tWV-Xb-hZi"/>
+                    <constraint firstItem="8TM-fK-I1d" firstAttribute="leading" secondItem="ZX4-dM-dMi" secondAttribute="leading" id="zn0-9F-MvN"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="pme-rU-41H"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="label1" destination="far-Nr-AYr" id="JHE-GM-EOe"/>
+                <outlet property="label2" destination="8TM-fK-I1d" id="LRj-GM-THP"/>
+            </connections>
+            <point key="canvasLocation" x="-602" y="-20"/>
+        </tableViewCell>
+    </objects>
+</document>

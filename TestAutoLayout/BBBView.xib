@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14C1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="NotoSansJP-Regular.otf">
+            <string>NotoSansJP-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Ngh-04-ijT" customClass="PieceDetailView" customModule="TestAutoLayout" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" tag="1003" contentMode="scaleToFill" id="EMY-XX-b2A">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <view tag="1001" contentMode="scaleToFill" id="l7G-OJ-f6z" userLabel="headerView">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="450"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" tag="1002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="UaL-vk-CLj">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="250"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <view contentMode="scaleToFill" id="VCQ-2X-WYC" userLabel="imageMaskView">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="250"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="xbh-1F-WMz" userLabel="headMaskView">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="250"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                </view>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="innerSeparateLine" id="cFW-BC-cYv" userLabel="companyIcon">
+                                    <rect key="frame" x="16" y="193" width="45" height="45"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="株式会社グッドパッチグッドパッチグッドパッチグッドパッチグッドパッチグッドパッチグッドパッチ" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="y01-zB-O0a">
+                                    <rect key="frame" x="71" y="192" width="208" height="46"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GY7-s5-dHu">
+                                    <rect key="frame" x="16" y="204" width="288" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="7cx-6e-3oJ" userLabel="rightArrow">
+                                    <rect key="frame" x="289" y="203" width="15" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="arrow_right_white">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="HME-S3-jRj">
+                                    <rect key="frame" x="0.0" y="185" width="320" height="65"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <state key="normal">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="clickCompany:" destination="Ngh-04-ijT" eventType="touchUpInside" id="cYw-I4-0Xr"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="社員の声" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7QZ-0S-otI" userLabel="headerTextCategory">
+                                    <rect key="frame" x="16" y="270" width="70" height="20"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" red="0.05126819262" green="0.74167455810000005" blue="0.3959954101" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="「社員全員でサンフランシスコ＆シリコンバレーに行く、変な会社です」" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="U8g-Qe-wCF">
+                                    <rect key="frame" x="16" y="300" width="288" height="24"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ピース本文" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VhY-vt-Aw8">
+                                    <rect key="frame" x="16" y="352" width="288" height="17"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="YXc-l5-Quq" userLabel="headerBlock">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="e32-Y7-5dc">
+                                    <rect key="frame" x="16" y="28" width="28" height="28"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="closeBtnPiece">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="tapClose:" destination="Ngh-04-ijT" eventType="touchUpInside" id="47d-fC-yhc"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="hqn-hc-0lv">
+                                    <rect key="frame" x="276" y="28" width="28" height="28"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="likeBtn">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="tapOk:" destination="Ngh-04-ijT" eventType="touchUpInside" id="DFd-zw-hkO"/>
+                                    </connections>
+                                </button>
+                                <view contentMode="scaleToFill" id="Z0P-cC-GpU" userLabel="okBlockView">
+                                    <rect key="frame" x="268" y="20" width="52" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="1Pv-ay-Oni" userLabel="jobListBlock">
+                            <rect key="frame" x="0.0" y="420" width="320" height="60"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5Uw-bS-xU7">
+                                    <rect key="frame" x="140" y="20" width="164" height="20"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
+                                    <state key="normal" title="この企業の求人一覧へ &gt;">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="tapJobList:" destination="Ngh-04-ijT" eventType="touchUpInside" id="onU-We-aSE"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="0.79741900980000002" green="0.95534928880000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                    </subviews>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="closeBtn" destination="e32-Y7-5dc" id="PbP-5U-R2t"/>
+                <outlet property="companyImgView" destination="cFW-BC-cYv" id="Ofo-Nm-6Ne"/>
+                <outlet property="companyNameLabel" destination="y01-zB-O0a" id="20X-Ul-V6M"/>
+                <outlet property="headerImgView" destination="UaL-vk-CLj" id="aOH-qH-FZg"/>
+                <outlet property="headerMaskView" destination="xbh-1F-WMz" id="mA2-Tr-l6a"/>
+                <outlet property="headerTabView" destination="YXc-l5-Quq" id="QhA-pT-0MA"/>
+                <outlet property="headerTextCategoryView" destination="7QZ-0S-otI" id="lhp-8k-vXu"/>
+                <outlet property="headerTextLabel" destination="U8g-Qe-wCF" id="5G2-QR-6Yy"/>
+                <outlet property="headerView" destination="l7G-OJ-f6z" id="78l-2N-Npp"/>
+                <outlet property="imgMaskView" destination="VCQ-2X-WYC" id="ZQn-Bf-aJl"/>
+                <outlet property="jobBlockView" destination="1Pv-ay-Oni" id="xGe-8f-Qte"/>
+                <outlet property="jumpCompanyBtn" destination="HME-S3-jRj" id="htw-aG-VLK"/>
+                <outlet property="okBlockView" destination="Z0P-cC-GpU" id="ibJ-Hh-1lW"/>
+                <outlet property="okBtn" destination="hqn-hc-0lv" id="kwP-VE-mE3"/>
+                <outlet property="pieceTextLabel" destination="VhY-vt-Aw8" id="rU1-F7-ctJ"/>
+                <outlet property="scrollView" destination="EMY-XX-b2A" id="jgY-XZ-Z6B"/>
+                <outlet property="trimCompanyNameLabel" destination="GY7-s5-dHu" id="w90-n2-Gsn"/>
+            </connections>
+            <point key="canvasLocation" x="719" y="-248"/>
+        </view>
+        <view contentMode="scaleToFill" id="TOr-lc-1t1" customClass="PieceDetailView" customModule="candidate" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="1600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView multipleTouchEnabled="YES" tag="1003" contentMode="scaleToFill" id="2vJ-lX-XKd">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="1536"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" id="LRt-Qg-UdX">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="450"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView autoresizesSubviews="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="1002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="hP5-PM-5W1">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="280"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <view contentMode="scaleToFill" id="Mk2-SH-ETF">
+                                    <rect key="frame" x="0.0" y="280" width="320" height="49"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" red="0.1058823529" green="0.65098039220000004" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </view>
+                                <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="innerSeparateLine" id="nSv-CL-FsN">
+                                    <rect key="frame" x="18" y="288" width="33" height="33"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="株式会社グッドパッチ" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KPZ-1V-fEh">
+                                    <rect key="frame" x="64" y="294" width="240" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="M8M-FQ-2Mk">
+                                    <rect key="frame" x="18" y="294" width="240" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="「社員全員でサンフランシスコ＆シリコンバレーに行く、変な会社です」" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="IM1-Zs-PfS">
+                                    <rect key="frame" x="18" y="353" width="284" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Webデザイナー、ディレクター" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="efJ-ue-mXk">
+                                    <rect key="frame" x="17" y="341" width="284" height="17"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                    <color key="textColor" red="0.39607843139999999" green="0.42352941179999998" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="innerSeparateLine" id="ccg-WE-mKs">
+                                    <rect key="frame" x="10" y="445" width="300" height="2"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" red="0.1058823529" green="0.65098039220000004" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </imageView>
+                            </subviews>
+                        </view>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ピース本文" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cZV-Db-2KO">
+                            <rect key="frame" x="18" y="461" width="284" height="100"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="NotoSansJP-Regular" family="Noto Sans Japanese" pointSize="14"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view autoresizesSubviews="NO" contentMode="scaleToFill" id="5uR-6p-8ZW">
+                            <rect key="frame" x="0.0" y="569" width="320" height="200"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="あなたにおすすめのお仕事" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8Se-pC-gh1">
+                                    <rect key="frame" x="18" y="12" width="209" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <color key="textColor" red="0.45098039220000002" green="0.45098039220000002" blue="0.45098039220000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" red="0.92156862750000001" green="0.96078431369999995" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="iKd-lV-CQm">
+                            <rect key="frame" x="1" y="1150" width="320" height="82"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="HkT-hd-yPA">
+                                    <rect key="frame" x="18" y="12" width="282" height="40"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <state key="normal" title="企業情報をみる">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="clickCompany:" destination="TOr-lc-1t1" eventType="touchUpInside" id="xjA-9O-cmy"/>
+                                    </connections>
+                                </button>
+                                <view contentMode="scaleToFill" id="0JI-Ks-GZv">
+                                    <rect key="frame" x="18" y="60" width="302" height="1"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" red="0.59215686270000001" green="0.59215686270000001" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </scrollView>
+                <view opaque="NO" userInteractionEnabled="NO" tag="1010" contentMode="scaleToFill" id="MUR-AJ-TXF">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" id="32f-WR-hvh">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="280"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.10000000000000001" colorSpace="calibratedWhite"/>
+                </view>
+                <view opaque="NO" tag="1001" contentMode="scaleToFill" id="Tfw-ER-paP">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" id="UMW-wn-ive">
+                            <rect key="frame" x="270" y="0.0" width="50" height="64"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ip0-Td-TKp">
+                            <rect key="frame" x="12" y="28" width="28" height="28"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" backgroundImage="closeBtnPiece">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="tapClose:" destination="TOr-lc-1t1" eventType="touchUpInside" id="gpZ-5y-bFT"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mdY-Rj-siD">
+                            <rect key="frame" x="274" y="27" width="30" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" backgroundImage="likeBtn">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="tapOk:" destination="TOr-lc-1t1" eventType="touchUpInside" id="MV4-TF-fMp"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3iF-k2-kt6">
+                            <rect key="frame" x="232" y="27" width="30" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" backgroundImage="deleteBtn">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="tapNg:" destination="TOr-lc-1t1" eventType="touchUpInside" id="9T0-Cq-ygC"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="closeBtn" destination="ip0-Td-TKp" id="v9e-I2-0u4"/>
+                <outlet property="companyImgView" destination="nSv-CL-FsN" id="Ifz-Do-HGe"/>
+                <outlet property="companyNameLabel" destination="KPZ-1V-fEh" id="ybs-b6-k7u"/>
+                <outlet property="footerBlockView" destination="iKd-lV-CQm" id="xTz-oZ-5gZ"/>
+                <outlet property="headerImgView" destination="hP5-PM-5W1" id="cdH-D5-LPt"/>
+                <outlet property="headerTabView" destination="Tfw-ER-paP" id="GlH-jK-hY0"/>
+                <outlet property="headerTextLabel" destination="IM1-Zs-PfS" id="dXd-Q5-EA9"/>
+                <outlet property="headerView" destination="LRt-Qg-UdX" id="dEi-VJ-vmP"/>
+                <outlet property="imgMaskView" destination="MUR-AJ-TXF" id="6zT-hW-NbT"/>
+                <outlet property="imgWholeMaskView" destination="32f-WR-hvh" id="7Gj-gA-2kj"/>
+                <outlet property="jobBlockView" destination="5uR-6p-8ZW" id="0SG-6n-9wS"/>
+                <outlet property="jumpCompanyBtn" destination="HkT-hd-yPA" id="qhe-mB-Ga4"/>
+                <outlet property="middleBlockView" destination="Mk2-SH-ETF" id="CBy-di-prn"/>
+                <outlet property="ngBtn" destination="3iF-k2-kt6" id="hhb-ax-50O"/>
+                <outlet property="okBlockView" destination="UMW-wn-ive" id="Qxk-RL-Gfm"/>
+                <outlet property="okBtn" destination="mdY-Rj-siD" id="az2-Q0-3tn"/>
+                <outlet property="pieceSeparator" destination="ccg-WE-mKs" id="tQ7-8l-E8M"/>
+                <outlet property="pieceTextLabel" destination="cZV-Db-2KO" id="AWX-5Q-nJo"/>
+                <outlet property="positionLabel" destination="efJ-ue-mXk" id="BFH-0K-TNH"/>
+                <outlet property="recommenHeaderLabel" destination="8Se-pC-gh1" id="vqU-Qn-jRx"/>
+                <outlet property="scrollView" destination="2vJ-lX-XKd" id="Epv-0W-X7n"/>
+                <outlet property="trimCompanyNameLabel" destination="M8M-FQ-2Mk" id="wv4-GP-zyt"/>
+            </connections>
+            <point key="canvasLocation" x="140" y="152"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="arrow_right_white" width="34" height="33"/>
+        <image name="closeBtnPiece" width="34" height="33"/>
+        <image name="deleteBtn" width="34" height="33"/>
+        <image name="innerSeparateLine" width="34" height="33"/>
+        <image name="likeBtn" width="34" height="33"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
